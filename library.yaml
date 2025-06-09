@@ -1,0 +1,194 @@
+categories:
+  int:
+    image_path: assets/images/categories/int.png
+    name: Interactive
+  nature:
+    image_path: assets/images/categories/int.png
+    name: Nature Sounds
+  ambience:
+    image_path: assets/images/categories/int.png
+    name: Ambient Sounds
+  music:
+    image_path: assets/images/categories/int.png
+    name: Musical Sounds
+  sfx:
+    image_path: assets/images/categories/int.png
+    name: Sound Effects
+  crowd:
+    image_path: assets/images/categories/int.png
+    name: Crowd Sounds
+audio_list:
+  teacup_clink:
+    name: Teacup Clink
+    category: sfx
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/teacup-clink-sfx-156224.mp3
+    playback_type: periodic
+    frequency: 15.0
+    hash: 23d4c67bb020f38d7ae2f291fd5eb864e3735cf14ffae6c11a3f9e823014e639
+  cup_and_saucer:
+    name: Cup and Saucer
+    category: sfx
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/cup-and-saucer-2-94933.mp3
+    playback_type: periodic
+    frequency: 12.0
+    hash: af397f595c290e9240e99098f5018e759e83087d51376f900ee746713d55963e
+  windchimes_short:
+    name: Wind Chimes (Short)
+    category: int
+    image_path: assets/images/categories/int.png
+    audio_paths:
+      - assets/audio/windchime1.mp3
+      - assets/audio/windchime2.mp3
+      - assets/audio/windchime4.wav
+      - assets/audio/windchime5.wav
+    playback_type: periodic
+    frequency: 10.0
+    hashes:
+      - 16f9c3d01b16038b8bae8844f6652194bd2e1f2c3f7643c85a54bee3ececaeaf
+      - 16f9c3d01b16038b8bae8844f6652194bd2e1f2c3f7643c85a54bee3ececaeaf
+      - e07ac5d3c349f01543358a539044ab9e2a2c5502b6b6fbfa8808cf0ed6e9c839
+      - 30855c30dbab5e9309a837dc7dbb365acb1c61be198c107e38c29f48b89fd47d
+  grasshopper_sounds:
+    name: Grasshopper Sounds
+    category: nature
+    image_path: assets/images/categories/int.png
+    audio_paths:
+      - assets/audio/grasshopper.mp3
+      - assets/audio/grasshopper2.mp3
+    playback_type: periodic
+    frequency: 7.0
+    hashes:
+      - 49733e02a72314f45b6bb7386cae0c49ff2f4f1b0e2e999001e40096b5ac075b
+      - b52d49970888860693330756e870fdce3652fe0129497e6c15026997c28124b8
+  natural_environment:
+    name: Natural Environment
+    category: nature
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/nature.mp3
+    hash: 71628f7b1553b0e7857bb4bc5c0d62c00d41020e12d2ed678b4f2376dafff6c3
+  river_flowing:
+    name: River Flowing
+    category: nature
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/river.mp3
+    hash: 54071b14bbaeadce025503f10870ced62e0b0dc13d934d6fb4bf0020671fc22f
+  rainfall:
+    name: Rainfall
+    category: nature
+    image_path: assets/images/categories/int.png
+    audio_paths:
+      - assets/audio/rain.mp3
+    hashes:
+      - e95e7dd28bb3534367afdcd497ba2cf97397156dc8b66ba514f0a54aef7a1cab
+  rainfall2:
+    name: Rainfall
+    category: nature
+    image_path: assets/images/categories/int.png
+    audio_paths:
+      - assets/audio/rain2.mp3
+    hashes:
+      - 3dd81fb569220ec100a72f8a03fba7fb75013dd892cced33c165ed616ba0d1db
+  wind_sounds:
+    name: Wind Sounds
+    category: nature
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/wind.mp3
+    hash: 99f6a0b97202e3776eb9757b4bd50cde5c8c22c5ca521a2ca9647c252dbc0d21
+  gramophone_classic:
+    name: Classic Gramophone
+    category: music
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/gramophone.mp3
+    hash: ba1439c27990937279fd0e5b4e0afc6da331c1c9228c7529ddfe1689f4193150
+  gramophone_sequence:
+    name: Gramophone Sequence
+    category: music
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/gramophone-starts-plays-and-stops-27493.mp3
+    hash: 0b16f9f87707070e36c46205843dc28f06b91ad898d8415ebdd6f34e91299df5
+  vintage_gramophone:
+    name: Vintage Gramophone
+    category: music
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/old-gramophone-79802.mp3
+    hash: 6fe6172e083c9bfbd3a98e694efd7f29baf1464b1101b7bc9a6e3943b3a75d8b
+  vintage_piano:
+    name: Vintage Piano
+    category: music
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/old-vinyl-piano-song-14583.mp3
+    hash: 3f7a92492c00e24a20c775c98cbd51c2ae49303dc62ed8dfaafdc154094c304e
+  fading_melody:
+    name: Fading Melody
+    category: music
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/song-die-out-1-17049.mp3
+    hash: ed13e4f3545a19581fe999875b02bfd922d87706148fabaaa5b1ca817e6ed18c
+  crowd_ambient:
+    name: Crowd Ambience
+    category: crowd
+    image_path: assets/images/categories/int.png
+    audio_paths:
+      - assets/audio/peoplelong.mp3
+    hashes:
+      - eb4237cd3347f1bdd32fe6ace809a3c9fb69bb2a36bd83eff32ebfd226fb1ea8
+  crowd_ambient2:
+    name: Crowd Ambience
+    category: crowd
+    image_path: assets/images/categories/int.png
+    audio_paths:
+      - assets/audio/peoplelong2.mp3
+    hashes:
+      - 1d9021b398ebc3d99766b7f6a51ea93c56be23403419c56bef42fa7409076648
+  crowd_courtyard:
+    name: Courtyard Crowd
+    category: crowd
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/people-who-are-talking-in-a-courtyard-in-kotor-montenegro-19511.mp3
+    hash: 24f5434c6203ef34d587222d5b2462a9035f5608635ffcc1a90c98e65b4fadd0
+  crowd_cheering:
+    name: Crowd Cheering
+    category: crowd
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/epic-crowd-sound-effects-pack-realistic-cheers-and-ambient-voices-323370.mp3
+    hash: a86dd99a645451dd401f8a8afc2dda40e34c65c33319978148a8be50c472acf0
+  crowd_background:
+    name: Background Crowd
+    category: crowd
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/generic-crowd-background-noise-31310.mp3
+    hash: 259564d80d1b94fcd3b1a7df7a1fa540a44384d1a6062ac9bf69f01fe0771458
+  power_buzz:
+    name: Power Buzz
+    category: ambience
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/power_buzz.mp3
+    hash: 2d28089ed9d426958fa60b7b31db7d9ac740b50f183284c52d9fc57a77921732
+  cup_stir:
+    name: Cup Stirring
+    category: sfx
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/cupstirlong.mp3
+    playback_type: periodic
+    frequency: 30.0
+    hash: 07a15bb971fc97738e2c31535c77fa50eddcc6bf2eb3bf02cf9d721c73b5c918
+  scary_atmosphere:
+    name: Scary Atmosphere
+    category: ambience
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/scary-ambience-59002.mp3
+    hash: bb33265183f7b82c672b473e7de36d92e9fe5cca544bf3188b8a3a50f1790963
+  system_failure:
+    name: System Failure
+    category: ambience
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/systemfailure.mp3
+    hash: 6fddd2e0a8a16d6840c6fa3d88bd87514af93b7b753f3081697cea0b6ab695cf
+  trumpets:
+    name: Distorted Trumpets
+    category: int
+    image_path: assets/images/categories/int.png
+    audio_path: assets/audio/trumpets.mp3
+    hash: 66e50a3296cbd8523658b21f88e648b8aa76663ef5db7fb29cb4f8c9da8493ec
